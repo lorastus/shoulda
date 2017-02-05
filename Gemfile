@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'appraisal', '~> 2.1'
-gem 'rails', '>= 4.2', '< 6'
-gem 'pry'
-gem 'pry-byebug'
-gem 'sqlite3', '~> 1.3.11'
+gemspec
+
+gem 'm'
 gem 'minitest', '~> 5.0'
 gem 'minitest-reporters', '~> 1.0'
-gem 'm'
+gem 'pry'
+gem 'pry-byebug'
+gem 'snowglobe', git: 'https://github.com/mcmire/snowglobe'
