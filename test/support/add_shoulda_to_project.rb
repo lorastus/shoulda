@@ -1,6 +1,3 @@
-# require_relative 'helpers/base_helpers'
-# require_relative 'helpers/gem_helpers'
-
 class AddShouldaToProject
   ROOT_DIRECTORY = Pathname.new('../../..').expand_path(__FILE__)
 
