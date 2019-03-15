@@ -25,9 +25,10 @@ Gem::Specification.new do |s|
   end
   s.require_paths = ['lib']
 
-  s.add_dependency('appraisal', '~> 2.1')
-  s.add_dependency('bundler', '~> 1.0')
-  s.add_dependency('rubocop')
+  s.add_development_dependency('appraisal', '~> 2.1')
+  s.add_development_dependency('bundler', '~> 1.0')
+  s.add_development_dependency('rubocop')
+  s.add_development_dependency('warnings_logger')
   # s.add_dependency('shoulda-context', ['~> 1.0', '>= 1.0.1'])
   # s.add_dependency('shoulda-matchers', '~> 4.0')
 end
