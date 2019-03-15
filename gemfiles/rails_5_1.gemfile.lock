@@ -20,10 +20,15 @@ GIT
 PATH
   remote: ..
   specs:
-    shoulda (3.5.0)
+    shoulda (3.6.0)
       appraisal (~> 2.1)
       bundler (~> 1.0)
       rubocop
+
+PATH
+  remote: /Users/elliot/code/personal/warnings_logger
+  specs:
+    warnings_logger (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -255,6 +260,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   turbolinks (~> 5)
+  warnings_logger!
 
 BUNDLED WITH
    1.17.3

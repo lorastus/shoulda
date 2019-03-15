@@ -8,6 +8,7 @@ gem "minitest-reporters"
 gem "pry"
 gem "pry-byebug"
 gem "snowglobe", git: "https://github.com/mcmire/snowglobe"
+gem "warnings_logger", path: "/Users/elliot/code/personal/warnings_logger"
 gem "sqlite3", platform: :ruby
 gem "spring"
 gem "spring-commands-rspec"

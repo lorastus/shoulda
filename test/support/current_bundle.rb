@@ -55,7 +55,7 @@ MSG
     end
 
     def root
-      Pathname.new('../../../..').expand_path(__FILE__)
+      Pathname.new('../../..').expand_path(__FILE__)
     end
   end
 end
