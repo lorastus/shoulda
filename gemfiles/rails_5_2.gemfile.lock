@@ -21,14 +21,6 @@ PATH
   remote: ..
   specs:
     shoulda (3.6.0)
-      appraisal (~> 2.1)
-      bundler (~> 1.0)
-      rubocop
-
-PATH
-  remote: /Users/elliot/code/personal/warnings_logger
-  specs:
-    warnings_logger (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -244,6 +236,7 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unicode-display_width (1.4.1)
+    warnings_logger (0.1.0)
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
@@ -254,8 +247,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  appraisal (~> 2.1)
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
+  bundler (~> 1.0)
   capybara (~> 3.1.1)
   chromedriver-helper
   jbuilder (~> 2.5)
@@ -268,6 +263,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.2)
   rails-controller-testing (>= 1.0.1)
+  rubocop
   sass-rails (~> 5.0)
   selenium-webdriver
   shoulda!
@@ -279,7 +275,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   turbolinks (~> 5)
-  warnings_logger!
+  warnings_logger
 
 BUNDLED WITH
    1.17.3
