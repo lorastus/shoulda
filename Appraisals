@@ -15,7 +15,6 @@ end
 shared_test_dependencies = proc do
   gem 'minitest-reporters'
   gem 'shoulda-context', git: 'https://github.com/thoughtbot/shoulda-context'
-  # gem 'shoulda-context', path: "#{ENV['HOME']}/code/personal/shoulda-context"
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers'
 end
 

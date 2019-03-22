@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/mcmire/snowglobe
-  revision: 860a917f51b7e2fc41aedcb9214c93748203ad9e
-  specs:
-    snowglobe (0.1.0)
-
-GIT
   remote: https://github.com/thoughtbot/shoulda-context
   revision: ce853d9bb0a9d0120383aca54d240687a2fb94a3
   specs:
@@ -195,6 +189,7 @@ GEM
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
+    snowglobe (0.1.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-commands-rspec (1.0.4)
@@ -239,7 +234,6 @@ DEPENDENCIES
   m
   minitest (~> 5.0)
   minitest-reporters
-  pry
   pry-byebug
   puma (~> 3.7)
   rails (~> 5.1.6)
@@ -250,7 +244,7 @@ DEPENDENCIES
   shoulda!
   shoulda-context!
   shoulda-matchers!
-  snowglobe!
+  snowglobe
   spring
   spring-commands-rspec
   spring-watcher-listen (~> 2.0.0)

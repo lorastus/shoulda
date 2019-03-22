@@ -27,8 +27,11 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency('appraisal', '~> 2.1')
   s.add_development_dependency('bundler', '~> 1.0')
+  s.add_development_dependency('m')
+  s.add_development_dependency('minitest', '~> 5.0')
+  s.add_development_dependency('minitest-reporters', '~> 1.0')
+  s.add_development_dependency('pry-byebug')
   s.add_development_dependency('rubocop')
+  s.add_development_dependency('snowglobe')
   s.add_development_dependency('warnings_logger')
-  # s.add_dependency('shoulda-context', ['~> 1.0', '>= 1.0.1'])
-  # s.add_dependency('shoulda-matchers', '~> 4.0')
 end

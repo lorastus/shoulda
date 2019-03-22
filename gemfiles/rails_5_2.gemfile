@@ -2,15 +2,10 @@
 
 source "https://rubygems.org"
 
-gem "m"
-gem "minitest", "~> 5.0"
-gem "minitest-reporters"
-gem "pry"
-gem "pry-byebug"
-gem "snowglobe", git: "https://github.com/mcmire/snowglobe"
 gem "sqlite3", platform: :ruby
 gem "spring"
 gem "spring-commands-rspec"
+gem "minitest-reporters"
 gem "shoulda-context", git: "https://github.com/thoughtbot/shoulda-context"
 gem "shoulda-matchers", git: "https://github.com/thoughtbot/shoulda-matchers"
 gem "rails", "~> 5.2.2"
